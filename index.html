@@ -31,16 +31,16 @@
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/header.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      <img src="images/header.jpg" alt="" class="d-block w-100" style="width:100%">
     </div>
     <div class="carousel-item">
-      <img src="images/header2.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <img src="images/header2.jpg" alt="" class="d-block w-100" style="width:100%">
     </div>
     <div class="carousel-item">
-      <img src="images/header3.jpg" alt="New York" class="d-block" style="width:100%">
+      <img src="images/header3.jpg" alt="" class="d-block w-100" style="width:100%">
     </div>
     <div class="carousel-item">
-      <img src="images/header4.jpg" alt="New York" class="d-block" style="width:100%">
+      <img src="images/header4.jpg" alt="" class="d-block w-100" style="width:100%">
     </div>
   </div>
   
@@ -51,6 +51,33 @@
   <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
     <span class="carousel-control-next-icon"></span>
   </button>
+</div>
+
+<div id="buttons">
+  <ul class="nav nav-pills nav-justified">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Blog</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Contact</a>
+    </li>
+  </ul>
+  <!--ul class="row">
+    <li class="first"><a href="#"  title="">Home</a></li>
+    <li><a href="#" title="">Blog</a></li>
+    <li><a href="#" title="">Gallery</a></li>
+    <li><a href="#" title="">About</a></li>
+    <li><a href="#" title="">Contact</a></li>
+  </ul-->
 </div>
 	<!--div id="slider-wrapper">        
 		 <div id="slider" class="nivoSlider ">
@@ -70,38 +97,33 @@
     </script>
 	-->
 </div>
-        <div id="buttons">
-		<ul>
-			<li class="first"><a href="#"  title="">Home</a></li>
-			<li><a href="#" title="">Blog</a></li>
-			<li><a href="#" title="">Gallery</a></li>
-			<li><a href="#" title="">About</a></li>
-			<li><a href="#" title="">Contact</a></li>
-		</ul></div>
+    
 <!-- header ends -->
 <!-- content begins -->
 <div id="content_bg">
-    <div id="column_box">
-      <div id="bg_left"></div>
-      <div id="column1">
+    <div id="column_box" class="row">
+
+      <div id="column1" class="col-md-4 col-12">
         <h2>Your Options</h2>
 							<img src="images/img1.png" alt="" title="" style="float: left; padding-right: 20px;"/>
 							<p><a href="#">Cras hendrerit est nec libero ornare sagittis. </a> <br />
-Donec interdum dignissim risus et vestibulum. 
-</p>
+                  Donec interdum dignissim risus et vestibulum. 
+              </p>
       </div>
-      <div id="column2">
+
+      <div id="column2" class="col-md-4 col-12">
         <h2>Company News</h2>
 							<img src="images/img2.png" alt="" title="" style="float: left; padding-right: 20px;"/>
 							<p><a href="#">Donec interdum dignissim risus et vestibulum.  </a>   <br />
-Donec eget nisi id magna tempor laoreet. Etiam egesa </p>
+              Donec eget nisi id magna tempor laoreet. Etiam egesa </p>
       </div>
-      <div id="column3">
+      <div id="column3" class="col-md-4 col-12">
        <h2>Have a Question?</h2>
 							<img src="images/img3.png" alt="" title="" style="float: left; padding-right: 20px;"/>
 							<p><a href="#">Cras hendrerit est nec libero ornare sagittis. </a>  <br />
-Donec interdum dignissim risus et vestibulum. </p>
+                  Donec interdum dignissim risus et vestibulum. </p>
       </div>
+
       <div id="bg_right"></div>
       <div class="clear"></div>
     </div>
@@ -110,29 +132,31 @@ Donec interdum dignissim risus et vestibulum. </p>
           	<div class="inside">
             	<div class="row-1 outdent">
               	<div class="wrapper">
-              	  <div class="meta1">
-                  	<div class="box1">
-                    	<h2>Etiam felis ipsum</h2>
-                      <div class="wrapper">
-                        <div class="meta1">
-                        	<div class="img-box">
-                            <img src="images/img3.jpg" alt="" />
-                            Vivamus ut risus sit amet ante tempor dapibus eget at <a href="#">quam</a>. In blandit ante at massa faucibus.                          </div>
-							
-                          <div class="wrapper">
-                            <img class="img-indent" src="images/img4.jpg" alt="" />
-                            Koreet aliquam leo tellus. dolor <a href="#">dapibumeQuisque</a> nulla. Vestibulum libero nisl, porta vel.                          </div>
+                  <div class="box1">
+                    <h2>Etiam felis ipsum</h2>
+                    <div class="wrapper">
+                      <div class="row">
+                        <div class="img-box col-md-6 col-12">
+                          <img src="images/img3.jpg" alt="" />
+                          Vivamus ut risus sit amet ante tempor dapibus eget at <a href="#">quam</a>. In blandit ante at massa faucibus.                          
                         </div>
-						
-                        <div class="meta2">
-                        	<div class="img-box">
-                            <img src="images/img1.jpg" alt="" />
-                            In in dui eget nibh viverra mollis eget eget lacus. In non velit augue. Quisque dolor elit.                          </div>
-                          <div class="wrapper">
-                            <img class="img-indent" src="images/img2.jpg" alt="" />
-                            Nullam vehicula odio in tellus venenatis a facilisis metus mollis. Fusce tempus dolor.                          </div>
+
+                        <div class="img-box col-md-6 col-12">
+                          <img src="images/img1.jpg" alt="" />
+                            In in dui eget nibh viverra mollis eget eget lacus. In non velit augue. Quisque dolor elit.                          
                         </div>
-                      </div>
+            
+                        <div class="img-box col-md-6 col-12">
+                          <img class="img-indent" src="images/img4.jpg" alt="" />
+                          Koreet aliquam leo tellus. dolor <a href="#">dapibumeQuisque</a> nulla. Vestibulum libero nisl, porta vel.                          
+                        </div>
+
+                        <div class="img-box col-md-6 col-12">
+                          <img class="img-indent" src="images/img2.jpg" alt="" />
+                          Nullam vehicula odio in tellus venenatis a facilisis metus mollis. Fusce tempus dolor.                          
+                        </div>  
+                      </div> 
+
                     </div>
                   </div>
               	  <div class="meta2">
@@ -145,7 +169,7 @@ Donec interdum dignissim risus et vestibulum. </p>
                         <li>&gt;  <a href="#">Cum sociis natoque penatibus</a></li>
                         <li>&gt;  <a href="#">Quisque mauris ligula, commodo</a></li>
                         <li>&gt;  <a href="#">Curabitur dignissim commodo</a></li>
-						<li>&gt;  <a href="#">Donec non egestas lectus lacus</a></li>
+						            <li>&gt;  <a href="#">Donec non egestas lectus lacus</a></li>
                         <li>&gt;  <a href="#">Cras porttitor hendrerit euismod</a></li>
                         <li>&gt;  <a href="#">Cum sociis natoque penatibus</a></li>
                         <li>&gt;  <a href="#">Quisque mauris ligula, commodo</a></li>
