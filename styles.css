@@ -81,12 +81,23 @@ font-size: 10px;
 	width: 998px;
 	height: 62px;
 	margin: 0 auto;
+	background: url(images/menu.gif) repeat-x;
+}
+
+#buttons ul {
+    padding-left: 80px;
+    margin: 0px;      
+}
+
+#buttons li {
+	display: inline;		
 }
 
 #buttons a {
 	display: block;
-	width: 115px; 
-	height: 60px;
+	float: left;
+	width: 115px;
+	height: 40px;
 	text-align: center;
 	text-decoration: none;
 	color: #ffffff;
@@ -98,7 +109,7 @@ font-size: 10px;
 
 #buttons a:hover {
 	width: 115px;
-    height: 60px;
+    height: 40px;
 	background: url(images/menu_hover.gif) repeat-x;
 }
 
@@ -156,13 +167,13 @@ padding: 5px;
 	background:#BCF5FF;
 	padding-bottom:19px;
 }
-.box1 h2, .indent H2, #column1 H2, #column2 H2, #column3 H2 {
-	padding: 0px;
-	padding-bottom: 10px;
-	color: #00D8FF;
-	font-size: 22px;
-	font-weight: normal;
-}
+	.box1 h2, .indent H2, #column1 H2, #column2 H2, #column3 H2 {
+		padding: 0px;
+		padding-bottom: 10px;
+		color: #00D8FF;
+		font-size: 22px;
+		font-weight: normal;
+	}
 
 #column1, #column2, #column3{
 	float: left;
@@ -348,7 +359,4 @@ a.nivo-prevNav {
 .nivo-caption a { 
     color:#efe9d1;
     text-decoration:underline;
-}
-.u-clearfix{
-	clear:both;
 }
